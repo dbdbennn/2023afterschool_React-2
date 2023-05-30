@@ -22,8 +22,11 @@ function Detail(props) {
     useEffect(() => {
         let a = setTimeout(() => {
             setAlert(false);
+            console.log(2)
         }, 2000)
         return () => {
+            // 타이머제거, useEffect가 실행되기 전에 실행됨
+            console.log(1)
             clearTimeout(a)
         }
     })

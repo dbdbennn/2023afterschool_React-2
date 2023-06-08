@@ -2,10 +2,10 @@ import {useState} from "react"
 import {Navbar,Container,Nav,Button} from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import bg from './img/bg1.png';
-// import shoes01 from './img/shoes01_.png';
-// import shoes02 from './img/shoes02_.png';
-// import shoes03 from './img/shoes03_.png';
+import bg from './img/bg1.png';
+import shoes01 from './img/shoes01.png';
+import shoes02 from './img/shoes02.png';
+import shoes03 from './img/shoes03.png';
 import data from './data.js';
 import {Routes, Route, Link, useNavigate, Outlet} from 'react-router-dom'
 import Detail from "./routes/Detail";
